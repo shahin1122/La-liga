@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 27, 117);
+}
+
+.teamHeader{
+    height: 400px;
+    background-image: url('https://the18.com/sites/default/files/styles/feature_image_with_focal/public/feature-images/20180726-The18-Image-How-Many-Players-On-A-Soccer-Field.jpg?itok=yaphFTc3');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+    
+   
+   
+
+}
+
+.teamHeader h1{
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-weight: 700;
+    
+}
+
+.mainBody{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.teamBody{
+    border:1px solid gray ;
+    background-color: rgb(255, 235, 196);
+    width: 400px;
+    height: 400px;
+    width: 20%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+    .teamBody {
+        width: 400px;
+        height: 400px;
+        width: 30%;
+        
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .teamBody {
+        width: 400px;
+        height: 400px;
+        width: 40%;
+        float: left;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .teamBody {
+        width: 400px;
+        height: 400px;
+        width: 80%;
+        float: none;
+    }
+  }
+
+  .teamBody button{
+      background-color: rgb(33, 33, 158);
+      
+      
+  }
+
+
+  button .exploreBtn .arrowIcon {
+    transition-delay: 1s;
+  }
+
+
+
+  .exploreBtn:hover .arrowIcon{
+    
+    transform: rotate(90deg)
+  }

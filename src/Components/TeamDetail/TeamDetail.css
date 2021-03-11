@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgSection{
+    min-height: 400px;
+    background-color: rgb(155, 158, 158);
+
+}
+
+#bgImg{
+    width: 100%;
+    height: 400px;
+    opacity: 70%; 
+    position: static;
+    
+}
+
+#logoImg{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    #logoImg {
+        margin-left: 35%;
+        margin-right: 45%;
+        width: 150px;
+        height: 150px;
+
+        
+    }
+  }
+
+  .totalInfo{
+      height: 300px;
+      background-color: rgb(0, 86, 199);
+      width: 80%;
+      margin: 0 auto;
+      border-radius: 20px;
+      color: white;
+      
+      
+  }
+
+  .teamInfo{
+      width: 40%;
+      margin-left: 3%;
+      margin-top: 5%;
+     
+  }
+
+  .playerType{
+      width: 40%;
+      float: right;
+      margin-top: -10% ;
+      margin-right: -15%;
+      
+  }
+
+  @media only screen and (max-width: 800px) {
+    .playerType{
+        width: 80%;
+        margin-top: 300px;
+
+        
+
+
+        
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .playerType{
+        width: 90%;
+        margin-top: 300px;
+        /* margin-right: 2%; */
+        margin-left: 3%;
+
+        
+
+
+        
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .totalInfo {
+        height: 800px;
+        
+
+
+        
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .teamInfo {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        height: 300px;
+        clear: both;
+        
+
+
+        
+    }
+  }
+
+  .discription{
+      color: whitesmoke;
+      margin: 10px 20px;
+  }
+
+  .social-link{
+      margin: 0 auto;
+  }
+
+
+  
+ 

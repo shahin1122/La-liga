@@ -21,7 +21,7 @@ const TeamDetail = () => {
         fetch(url)
         .then(res=> res.json())
         .then(data => setSingleTeam(data.teams))
-    },[])
+    },[teamDetailsId])
 
 
 
